@@ -7,6 +7,7 @@ export default function Player() {
   
   function handleSubmit() {
     setPlayerName(name.current.value);
+    name.current.value = "";
   }
 
   return (
